@@ -1,0 +1,3 @@
+I encountered an issue where Tailwind CSS classes weren't being applied correctly to my elements.  I had the correct configuration and import statements, but some classes simply didn't work. After careful inspection, I found that I had accidentally included a space within a class name, like so: `bg-blue-500  text-white`. This extra space caused the class to be ignored by Tailwind.
+
+Another related problem: I used a class name that was very similar to a valid Tailwind class, but had a slight typo, such as `text-whit` instead of `text-white`. This would not generate an error, but it would also not apply the style.
